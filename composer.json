@@ -3,7 +3,7 @@
     "description": "A Magento 2 module that allows migrate from wordpress.",
     "type": "magento2-module",
     "version": "1.0.0",
-    "license": "https://sapient.pro/docs/pos-magento",
+    "license": "MIT",
     "authors": [
         {
             "name": "SapientPro",
