@@ -4,4 +4,8 @@
         <plugin name="sp_wp_migration_encryptor_plugin"
                 type="SapientPro\WpMigration\Plugin\Magento\Customer\Model\AuthenticationPlugin"/>
     </type>
+    <type name="Magento\Customer\Model\AccountManagement">
+        <plugin name="sp_wp_migration_authenticate_plugin"
+                type="SapientPro\WpMigration\Plugin\Magento\Customer\Model\AuthenticatePlugin"/>
+    </type>
 </config>
