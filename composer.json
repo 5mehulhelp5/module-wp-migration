@@ -2,7 +2,7 @@
     "name": "sapientpro/module-wp-migration",
     "description": "A Magento 2 module that allows migrate from wordpress.",
     "type": "magento2-module",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "authors": [
         {
@@ -12,7 +12,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "sapientpro/module-core": "*"
     },
     "autoload": {
         "files": [
